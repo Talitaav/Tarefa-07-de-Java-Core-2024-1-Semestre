@@ -3,15 +3,16 @@ package tarefa07_java;
 import java.util.Scanner;
 
 public class Exercicio11 {
-
-	public static void main(String[] args) {
-		/*
+	/*
 		 * 11) Uma fruteira está vendendo frutas com a seguinte tabela de preços: Se o
 		 * cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar
 		 * R$ 25,00, receberá ainda um desconto de 10% sobre este total. Escreva um
 		 * algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de
 		 * maças adquiridas e escreva o valor a ser pago pelo cliente.
 		 */
+
+	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Informe a quantidade em Kg de morangos:");
