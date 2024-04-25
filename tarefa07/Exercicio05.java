@@ -1,6 +1,7 @@
 package tarefa12MetodosEmJava;
 
 public class Exercicio05 {
+	//5) Inverter String: Implemente um método que inverta uma string passada como argumento.
 
 	public static String inverter(String str) {
 		char[] caracteres = str.toCharArray();
@@ -20,7 +21,6 @@ public class Exercicio05 {
 	}
 
 	public static void main(String[] args) {
-//5) Inverter String: Implemente um método que inverta uma string passada como argumento.
 
 		System.out.println("Digite uma frase: ");
 		String str = "Na minha cidade no interior";
